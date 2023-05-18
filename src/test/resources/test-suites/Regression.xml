@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionSuite" >
+    <test name="Jira - Issue e2e" >
+        <classes>
+            <class name="test.JiraIssueCRUD" />
+        </classes>
+    </test>
+</suite>
